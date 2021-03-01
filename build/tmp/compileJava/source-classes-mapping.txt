@@ -1,0 +1,2 @@
+cz/educanet/game/Main.java
+ cz.educanet.game.Main
