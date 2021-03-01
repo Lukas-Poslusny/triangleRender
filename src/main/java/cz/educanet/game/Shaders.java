@@ -2,8 +2,6 @@ package cz.educanet.game;
 
 import org.lwjgl.opengl.GL33;
 
-import java.sql.SQLOutput;
-
 public class Shaders {
 
     private static final String fragmentShader = "#version 330 core\n" +
@@ -11,7 +9,7 @@ public class Shaders {
             "out vec4 FragColor;\n" +
             "\n" +
             "void main() {\n" +
-            "    FragColor = vec4(0.619, 0.298, 0.298, 1.0);\n" +
+            "    FragColor = vec4(0.0, 1.0, 0.5, 1.0);\n" +
             "}";
 
     private static final String vertexShader = "#version 330 core\n" +

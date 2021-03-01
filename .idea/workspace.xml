@@ -3,8 +3,26 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a8533-0065-40da-8361-fd96a6dd2390" name="Default Changelist" comment="" />
+    <list default="true" id="6e9a8533-0065-40da-8361-fd96a6dd2390" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cz/educanet/game/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/cz/educanet/game/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/educanet/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/educanet/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/educanet/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/educanet/game/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/educanet/game/Shaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/educanet/game/Shaders.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +60,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -50,6 +71,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1oFXWXeUvvgUZzsVSj89cTxVy89" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -75,7 +97,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.HelloWindow [build]">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cz.educanet.game.Main" />
       <module name="HelloWindow.main" />
@@ -140,7 +162,9 @@
       <workItem from="1613487722125" duration="1515000" />
       <workItem from="1613489279636" duration="1061000" />
       <workItem from="1614542404649" duration="137000" />
-      <workItem from="1614605132357" duration="1116000" />
+      <workItem from="1614605132357" duration="3809000" />
+      <workItem from="1614609375735" duration="157000" />
+      <workItem from="1614609619558" duration="3196000" />
     </task>
     <servers />
   </component>
@@ -149,6 +173,18 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.glsl" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1612883856592">
@@ -159,26 +195,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="381" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1613489192485" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1614542540290">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1614609533618">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1614542540290" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1613489250255">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1614609533618" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1614612450194">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613489250255" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1613489250255">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614612450194" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1614612450193">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613489250255" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1613489250254">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614612450193" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1614612450193">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613489250254" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1613489250255">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614612450193" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1614612450194">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613489250255" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614612450194" />
     <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1613487876361">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

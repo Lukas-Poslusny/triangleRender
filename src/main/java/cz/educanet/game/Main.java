@@ -19,56 +19,28 @@ public class Main {
         }
         GLFW.glfwMakeContextCurrent(window);
 
+        // Tell GLFW that we are using OpenGL
         GL.createCapabilities();
         GL33.glViewport(0, 0, 800, 600);
 
-        float r = 0;
-        float g = 0;
-        float b = 0;
-
-        boolean goingup = true;
+        // Main game loop
         Game.init(window);
         while (!GLFW.glfwWindowShouldClose(window)) {
-
-            if (GLFW.glfwGetKey(window, GLFW.GLFW_KEY_UP) == GLFW.GLFW_PRESS) {
-
-                if(r >= 1)
-                    goingup = true;
-                else if (r <= 0) {
-                    goingup = false;
-                }
-                if (goingup) {
-                    r += 0.0002;
-                    g += 0.0002;
-                    b += 0.0002;
-                }
-                else {
-                    r -= 0.0002;
-                    g -= 0.0002;
-                    b -= 0.0002;
-                }
-                System.out.println("r: " + r + "  g: " + g + "  b: " + b);
-
-                GL33.glClearColor(r, g, b, 100);
-            }
-            else {
-                // change background color
-                GL33.glClearColor(0f, 0f, 0f, 1f);
-                // clear previous color
-            }
-            GL33.glClear(GL33.GL_COLOR_BUFFER_BIT);
 
             // Escape on "esc" keypress
             if (GLFW.glfwGetKey(window, GLFW.GLFW_KEY_ESCAPE) == GLFW.GLFW_PRESS) {
                 GLFW.glfwSetWindowShouldClose(window, true);
             }
 
-            // Update
-            // Render
+            
+            GLFW.glfwSwapBuffers(window);   // Swap the color buffer -> screen tearing solution
+            GLFW.glfwPollEvents();  // Listen to input
+            GL33.glClear(GL33.GL_COLOR_BUFFER_BIT); // clear previous color
 
 
-            GLFW.glfwSwapBuffers(window);
-            GLFW.glfwPollEvents();
+            Game.render(window);
+            Game.update(window);
+
         }
 
         GLFW.glfwTerminate();
